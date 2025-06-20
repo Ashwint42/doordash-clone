@@ -582,7 +582,6 @@ nav {
     height: 200px;
     padding: 20px;
     align-items: center;
-    /* margin: 10px auto; */
 }
 
 .primary-overlay-image {
@@ -685,4 +684,77 @@ nav {
     font-size: 14px;
     line-height: 20px;
     margin-top: 20px;
+}
+
+#grocery {
+    width: 100%;
+    background-color: blue;
+    position: relative;
+    top: -3px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('/assets/images/grocery_desktop.avif');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.grocery-banner-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grocery-text-container {
+    max-width: 550px;
+    height: 210px;
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.grocery-text-container h2 {
+    max-width: 90%;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "TTNorms-Bold";
+}
+
+.grocery-text-container .grocery-text-leading {
+    font-family: "TTNorms-Bold";
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.grocery-text-container .grocery-text-following {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: 'TTNorms-Medium';
+}
+
+.grocery-text-container .grocery-button-container {
+    margin-top: 20px;
+}
+
+.grocery-button-container button {
+    min-height: 32px;
+    width: 123.896px;
+    max-width: 100%;
+    font-size: 14px;
+    text-align: center;
 }
