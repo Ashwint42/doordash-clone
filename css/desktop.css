@@ -86,4 +86,13 @@
         font-size: 18px;
         line-height: 24px;
     }
+
+    .primary-overlay-container {
+        margin-left: 65px;
+        width: 85%;
+    }
+
+    .secondary-overlay-item {
+        width: 96%;
+    }
 }
