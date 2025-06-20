@@ -1,0 +1,89 @@
+@media screen and (min-width: 960px) {
+    .main-logo-svg-container svg {
+        width: 42px;
+        height: 24px;
+        margin-left: 1px;
+    }
+
+    .logo-text-container svg {
+        width: 155px;
+        height: 18px;
+        margin-left: 4px;
+        margin-top: 1px;
+    }
+
+    #delivery-signin-text {
+        display: none;
+    }
+
+    #delivery-signin-long-text {
+        display: flex;
+    }
+
+    .delivery-buttons-container .delivery-login {
+        width: 203.5px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #organization {
+        max-width: 1184px;
+        height: 636px;
+        width: 1104px;
+    }
+
+    .organization-container {
+        width: 1104px;
+        margin: 96px 0;
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .roles-container {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        width: 360px;
+        text-align: center;
+    }
+
+    .role-image-container {
+        display: flex;
+        justify-content: center;
+        margin-right: 64px;
+    }
+
+    .role-image-container img {
+        width: 154px;
+        height: 154px;
+    }
+
+    .role-text-container h3 {
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    .role-text-container h2 {
+        text-align: center;
+    }
+
+    .role-text-container {
+        width: 250px;
+        max-width: 250px;
+        min-height: 160px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self: flex-start;
+        align-items: center;
+        margin-left: -0.5px;
+    }
+
+    .role-text-container button span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
