@@ -49,6 +49,10 @@ li {
     list-style: none;
 }
 
+h2 {
+    font-family: "TTNorms-Bold";
+}
+
 button {
     border: none;
     background-color: var(--primary-button-color);
@@ -753,8 +757,57 @@ nav {
 
 .grocery-button-container button {
     min-height: 32px;
-    width: 138.188px;
+    width: 123.896px;
     max-width: 100%;
     font-size: 14px;
     text-align: center;
+}
+
+#convenience {
+    min-width: 90%;
+    margin-top: -70px;
+}
+
+.convenience-wrapper {
+    min-width: 90%;
+    padding: 17px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.convenience-image {
+    width: 100%;
+}
+
+.convenience-image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.convenience-text h2 {
+    max-width: 90%;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.convenience-text span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: 'TTNorms-Medium';
+}
+
+.convenience-button-container {
+    margin-top: 20px;
+}
+
+.convenience-button-container button {
+    width: 90.7708px;
+    min-height: 32px;
+    font-size: 14px;
 }
