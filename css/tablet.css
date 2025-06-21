@@ -350,4 +350,104 @@
         font-size: 16px;
         max-width: 100%;
     }
+
+
+    #scroll-section .scroll-heading {
+        width: 100%;
+        padding: 60px 20px 40px;
+    }
+
+    .scroll-heading span {
+        text-align: center;
+        max-width: 500px;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        font-family: 'TTNorms-Bold';
+    }
+
+    .carousel {
+        width: 100%;
+        /* max-width: 1184px; */
+        display: flex;
+        flex-flow: wrap;
+        padding: 0px;
+    }
+
+    .carousel-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 50%;
+        min-width: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+    }
+
+    .carousel-image {
+        width: 100%;
+    }
+
+    .carousel-image img {
+        width: 100%;
+        height: 99%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        /* transform: scaleY(1); */
+        aspect-ratio: 1/1;
+    }
+
+    .pets {
+        margin-right: 0;
+    }
+
+    .carousel-text h2 {
+        max-width: 90%;
+        margin-top: 17px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .carousel-text span {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+        font-family: 'TTNorms-Medium';
+    }
+
+    .carousel-text .carousel-item-button-container {
+        margin-top: 30px;
+    }
+
+    .carousel-text .carousel-item-button-container button {
+        min-height: 40px;
+        max-width: 100%;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #beauty-button {
+        width: 117.656px;
+    }
+
+    #flowers-button {
+        width: 124.125px;
+    }
+
+    #alcohol-button {
+        width: 123px;
+    }
+
+    #pets-button {
+        width: 149.208px;
+    }
+
+    .carousel-text .alcohol-disclaimer {
+        font-size: 14px;
+    }
 }

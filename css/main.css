@@ -814,6 +814,7 @@ nav {
 #scroll-section {
     width: 100%;
     background-color: var(--overlay-color);
+ 
 }
 
 #scroll-section .scroll-heading {
@@ -886,8 +887,8 @@ nav {
 
 .carousel-text .carousel-item-button-container {
     margin-top: 20px;
-    min-height: 32px;
-    max-width: 100%;
+    /* min-height: 32px;
+    max-width: 100%; */
 }
 
 .carousel-text .carousel-item-button-container button {

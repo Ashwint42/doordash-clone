@@ -100,3 +100,39 @@
         padding: 0;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    /* #scroll-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-left: 3%;
+    }
+
+    .carousel-text h2 {
+        margin-top: 20px;
+    } */
+
+    /* .carousel-image img {
+        transform: scale(0.92);
+    } */
+
+    /* .carousel {
+        padding: 0 10px;
+    } */
+
+    .carousel-image {
+        width: 95%;
+    }
+
+    .item-1 {
+        /* margin-left: 10px; */
+    }
+
+    /* .carousel-item {
+        margin-left: 10px;
+    } */
+}
