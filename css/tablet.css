@@ -141,41 +141,6 @@
         margin-left: 32px;
     }
 
-    /* .primary-overlay-container {
-        background-color: yellow;
-        max-width: 1184px;
-        height: 504px;
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 60px;
-        align-content: space-between;
-        justify-content: center;
-        padding: 0;
-        position: relative;
-        z-index: 3;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-
-    .primary-overlay-text {
-        max-width: 400px;
-        height: 290px;
-        background-color: blue;
-        margin-top: 107px;
-        margin-bottom: 107px;
-    } */
-
-    /* .primary-overlay-image {
-        height: 100%;
-    }
-
-    .primary-overlay-image img {
-        height: 100%;
-    } */
-
-
-
     .primary-overlay-container {
         max-width: 1184px;
         height: 500px;
@@ -189,7 +154,6 @@
     }
 
     .primary-overlay-text {
-        /* background-color: blue; */
         max-width: 410px;
         height: 290px;
         display: flex;
@@ -247,7 +211,6 @@
         align-items: center;
         justify-content: center;
         margin-top: -40px;
-        /* height: 530px; */
     }
 
     .secondary-overlay-item {
@@ -255,11 +218,8 @@
         display: flex;
         gap: 60px;
         width: 100%;
-        /* background-color: purple; */
         margin-top: -96px;
         padding: 0;
-        /* margin-left: 20px;
-        margin-right: 20px; */
     }
 
 
@@ -301,4 +261,44 @@
         line-height: 22px;
         margin-top: 30px;
     }
+
+    #grocery {
+        height: 600px;
+        z-index: 1;
+        top: -70px;
+    }
+
+    .grocery-text-container {
+        margin: 146px 0;
+        height: 308px;
+    }
+
+    .grocery-text-container h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .grocery-text-container .grocery-text-leading {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .grocery-text-container .grocery-text-following {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .grocery-text-container .grocery-button-container {
+        margin-top: 30px;
+    }
+
+    .grocery-button-container button {
+        min-height: 40px;
+        max-width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
 }
