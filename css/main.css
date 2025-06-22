@@ -814,7 +814,6 @@ nav {
 #scroll-section {
     width: 100%;
     background-color: var(--overlay-color);
- 
 }
 
 #scroll-section .scroll-heading {
@@ -905,4 +904,130 @@ nav {
 
 .carousel::-webkit-scrollbar {
     display: none;
+}
+
+#opportunity {
+    max-width: 100%;
+    /* background-color: yellow; */
+}
+
+.opportunity-heading {
+    max-width: 100%;
+    padding: 40px 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opportunity-heading h2 {
+    max-width: 300px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'TTNorms-Bold';
+    text-align: center;
+    margin: -2px auto;
+    font-weight: bold;
+}
+
+.opportunity-wrapper {
+    max-width: 100%;
+    background-color: var(--overlay-color);
+    margin-top: 3px;
+}
+
+.opportunity-primary-container {
+    background-color: white;
+    min-width: 90%;
+    padding: 20px;
+}
+
+.opportunity-primary-image {
+    width: 100%;
+    height: 180px;
+}
+
+.opportunity-primary-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.opportunity-primary-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.opportunity-primary-text h2 {
+    max-width: 90%;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.opportunity-primary-text p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+}
+
+.opportunity-primary-button {
+    margin-top: 20px;
+}
+
+.opportunity-primary-button button {
+    min-height: 32px;
+    max-width: 100%;
+    font-size: 14px;
+    box-sizing: content-box;
+    padding: 0 12px;
+}
+
+.opportunity-secondary-container {
+    background-color: var(--overlay-color);
+    min-width: 90%;
+    padding: 320px 20px 20px;
+    margin-top: -298px;
+}
+
+.opportunity-secondary-image {
+    width: 100%;
+    height: 180px;
+}
+
+.opportunity-secondary-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.opportunity-secondary-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.opportunity-secondary-text h2 {
+    max-width: 90%;
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.opportunity-secondary-text p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 9px;
+}
+
+.opportunity-secondary-button {
+    margin-top: 20px;
+}
+
+.opportunity-secondary-button button {
+    min-height: 32px;
+    max-width: 100%;
+    font-size: 14px;
+    box-sizing: content-box;
+    padding: 0 12px;
 }
