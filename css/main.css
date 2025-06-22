@@ -936,6 +936,10 @@ nav {
     margin-top: 3px;
 }
 
+.opportunity-primary-wrapper {
+    width: 100%;
+}
+
 .opportunity-primary-container {
     background-color: white;
     min-width: 90%;
