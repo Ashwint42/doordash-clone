@@ -99,9 +99,13 @@
         align-items: center;
         padding: 0;
     }
+
+    #franchise {
+        margin: 0 auto;
+    }
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     /* #scroll-section {
         width: 100%;
         display: flex;
@@ -116,23 +120,25 @@
         margin-top: 20px;
     } */
 
-    /* .carousel-image img {
+/* .carousel-image img {
         transform: scale(0.92);
     } */
 
-    /* .carousel {
+/* .carousel {
         padding: 0 10px;
     } */
 
-    .carousel-image {
-        width: 95%;
-    }
+/* .carousel-image {
+    width: 95%;
+} */
 
-    .item-1 {
-        /* margin-left: 10px; */
-    }
+/* .item-1 { */
+/* margin-left: 10px; */
+/* } */
 
-    /* .carousel-item {
+/* .carousel-item {
         margin-left: 10px;
     } */
-}
+/* } */
+
+/* */
