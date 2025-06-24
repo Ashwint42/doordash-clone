@@ -490,6 +490,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -2px;
+    margin-left: -1.5px;
 }
 
 .app-ad-content {
@@ -533,12 +535,16 @@ nav {
     margin-left: 2px;
 }
 
+.app-rating .stars-container {
+    margin-left: -1px;
+}
+
 .app-rating-text {
     font-size: 14px;
     text-align: left;
     width: 84.0104px;
     line-height: 20px;
-    margin-left: 4px;
+    margin-left: 6px;
     color: rgb(96, 96, 96);
     font-weight: 500;
 }
@@ -945,8 +951,6 @@ nav {
 
 .carousel-text .carousel-item-button-container {
     margin-top: 20px;
-    /* min-height: 32px;
-    max-width: 100%; */
 }
 
 .carousel-text .carousel-item-button-container button {
@@ -967,7 +971,6 @@ nav {
 
 #opportunity {
     max-width: 100%;
-    /* background-color: yellow; */
 }
 
 .opportunity-heading {
@@ -1033,7 +1036,7 @@ nav {
     line-height: 20px;
     margin-top: 10px;
     letter-spacing: 0.3px;
-    font-family: "TTNorms-Medium";
+    font-family: 'TTNorms-Regular'
 }
 
 .opportunity-primary-button {
