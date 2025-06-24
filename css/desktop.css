@@ -121,45 +121,233 @@
         padding: 0;
     }
 
+    #opportunity {
+        max-width: 100%;
+    }
+
     #franchise {
         margin: 0 auto;
     }
-}
 
-/* @media screen and (min-width: 1200px) {
-    /* #scroll-section {
+    #offers {
         width: 100%;
+    }
+
+    .primary-offers-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        min-width: 90%;
+    }
+
+    .primary-offers-container {
+        max-width: 1184px;
+        width: 1155px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        margin-bottom: -60px;
+        z-index: 4;
+    }
+
+    .primary-offer-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .primary-offer-text h2 {
+        font-size: 40px;
+        line-height: 40px;
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .primary-offer-text .fav-res {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+        font-family: "TTNorms-Medium";
+    }
+
+    .primary-offer-text .primary-desc {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 10px;
+        /* font-family: "TTNorms-Medium"; */
+    }
+
+    .primary-offer-text button {
+        max-width: 100%;
+        width: 146px;
+        min-height: 40px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .primary-offer-image {
+        height: 500px;
+    }
+
+    .primary-offer-image img {
+        height: 100%;
+    }
+
+    .secondary-offers-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-width: 90%;
+        background-color: var(--overlay-color);
+        padding: 81px 20px 20px 20px;
+        font-family: 'Sample';
+        margin-top: 2px;
+    }
+
+    .secondary-offers-container {
+        max-width: 1184px;
+        width: 1184px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .secondary-offer-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5px;
+        max-width: 400px;
+    }
+
+    .secondary-offer-text h2 {
+        font-size: 40px;
+        line-height: 40px;
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .secondary-offer-text span {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+
+    .secondary-offer-text button {
+        max-width: 100%;
+        min-height: 40px;
+        width: 127px;
+        margin-top: 30px;
+    }
+
+    .secondary-offer-image {
+        /* height: 504px; */
+        /* min-width: 100%; */
+        max-width: 724px;
+    }
+
+    .secondary-offer-image img {
+        height: 500px;
+        max-width: 724px;
+        object-fit: cover;
+    }
+
+    #grocery {
+        top: 1px;
+    }
+
+    #scroll-section {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        align-content: center;
-        padding-left: 3%;
     }
 
-    .carousel-text h2 {
+    #advantage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .advantage-wrapper {
+        min-width: 90%;
+        padding: 60px 20px 20px 20px;
+        margin-bottom: -40px;
+    }
+
+    .advantage-item {
+        display: flex;
+        max-width: 1184px;
+        gap: 60px;
+        align-content: space-between;
+        justify-content: center;
+
+    }
+
+    .advantage-text-wrapper {
+        max-width: 400px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .advantage-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advantage-text h2 {
+        max-width: 90%;
         margin-top: 20px;
-    } */
+        font-size: 40px;
+        line-height: 40px;
+    }
 
-/* .carousel-image img {
-        transform: scale(0.92);
-    } */
+    .advantage-text span {
+        font-family: "TTNorms-Regular";
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
 
-/* .carousel {
-        padding: 0 10px;
-    } */
+    .advantage-text button {
+        margin-top: 30px;
+        max-width: 100%;
+        width: 100px;
+        min-height: 40px;
+    }
 
-/* .carousel-image {
-    width: 95%;
-} */
+    .advantage-image {
+        width: 100%;
+    }
 
-/* .item-1 { */
-/* margin-left: 10px; */
-/* } */
+    .advantage-image img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
 
-/* .carousel-item {
-        margin-left: 10px;
-    } */
-/* } */
+    .carousel {
+        width: 100%;
+        max-width: 1184px;
+        justify-content: center;
+        align-content: center;
+        margin-right: 0;
+    }
 
-/* */
+    #convenience {
+        display: none;
+    }
+
+    #overlay-section {
+        display: none;
+    }
+}
