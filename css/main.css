@@ -286,13 +286,23 @@ nav {
 .delivery-main-text-container h1 {
     min-width: 300px;
     color: white;
-    font-family: 'TTNorms-Condensed';
-    font-size: 34px;
-    /* font-weight: bolder; */
+    font-family: TTNormsProCond-Blk,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    font-size: 32px;
+    font-weight: 900;
     line-height: 28px;
     max-width: 350px;
     text-align: center;
-    letter-spacing: 1px;
+    margin-top: -5px;
 }
 
 .delivery-inputs-container {
@@ -300,7 +310,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -5px;
+    /* margin-top: -5px; */
 }
 
 .delivery-inputs-wrapper {
@@ -442,10 +452,22 @@ nav {
 }
 
 .delivery-buttons-container .current-location .delivery-location-text {
-    font-family: 'TTNorms-Bold';
+    font-family: "TT-Norms",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
     text-align: center;
     line-height: 32px;
     margin-left: 3px;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .delivery-buttons-container .current-location .delivery-location-svg-wrapper {

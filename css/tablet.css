@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Placeholder";
+    src: url(../assets/fonts/download.woff2);
+}
+
 @media screen and (min-width: 768px) {
 
     #app-ad {
@@ -52,15 +57,14 @@
 
     .delivery-main-text-container {
         max-width: 750px;
-        margin-top: 85px;
+        margin-top: 84px;
     }
 
     .delivery-main-text-container h1 {
-        font-size: 38px;
+        font-size: 40px;
         max-width: 750px;
         line-height: 40px;
-        font-weight: bolder;
-        letter-spacing: -0.5px;
+        font-weight: 900;
     }
 
     .delivery-inputs-wrapper {
@@ -68,7 +72,7 @@
         padding-top: 28px;
         padding-right: 8px;
         padding-bottom: 28px;
-        margin-top: 18px;
+        margin-top: 24px;
     }
 
 
@@ -98,16 +102,28 @@
     }
 
     .delivery-inputs-wrapper .input-wrapper input::placeholder {
-        font-size: 15.2px;
+        font-family: "TTNorms-Medium";
+        font-size: 15.5px;
+        line-height: 22px;
         color: #606060;
+        width: 292px;
+        font-weight: 500;
     }
 
     #delivery-signin-text {
         display: flex;
+        font-family: 'TTNORMS-MEDIUM';
+        letter-spacing: 0.25px;
+        margin-left: 1px;
+        margin-top: -1px;
     }
 
     #delivery-login-text {
         display: none;
+    }
+
+    .delivery-login {
+        transform: scale(1.01);
     }
 
     .delivery-buttons-container .current-location {
@@ -115,12 +131,17 @@
     }
 
     .delivery-buttons-container .delivery-login {
-        width: 88.9px;
+        width: 88.74px;
         margin-left: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        margin-top: 1px;
     }
 
     .delivery-buttons-container .delivery-login .delivery-login-svg-wrapper {
-        margin-left: 2px;
+        margin-left: 0px;
     }
 
     #organization {

@@ -12,16 +12,30 @@
         margin-top: 1px;
     }
 
+    .delivery-main-text-container {
+        max-width: 750px;
+        margin-top: 81px;
+    }
+
+    .delivery-inputs-wrapper {
+        width: 408px;
+    }
+
     #delivery-signin-text {
         display: none;
     }
 
     #delivery-signin-long-text {
         display: flex;
+        margin-left: 0px;
     }
 
     .delivery-buttons-container .delivery-login {
         width: 203.5px;
+    }
+
+    .delivery-buttons-container .delivery-login .delivery-login-svg-wrapper {
+        margin-left: 0px;
     }
 
     .footer-about {
@@ -41,7 +55,7 @@
 
     footer {
         max-width: 100%;
-        padding: 0 75px;
+        padding: 0 20px;
 
     }
 }
@@ -349,5 +363,9 @@
 
     #overlay-section {
         display: none;
+    }
+
+    footer {
+        padding: 0 32px;
     }
 }
