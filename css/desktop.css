@@ -38,26 +38,25 @@
         margin-left: 0px;
     }
 
-    .footer-about {
+    .description {
         flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: flex-start;
     }
 
-    .download-app-container {
-        max-width: 160px;
+    .app-icons-container {
+        align-items: flex-end;
+        width: 50%;
     }
 
-    .about-items-container {
-        max-width: 50%;
-        gap: 12px;
+    .about-container {
+        width: 50%;
+        flex-direction: row;
     }
 
-    footer {
-        max-width: 100%;
-        padding: 0 20px;
+    /* footer {
+        display: flex;
+        justify-content: center;
+    } */
 
-    }
 }
 
 @media screen and (min-width: 1184px) {
@@ -377,20 +376,6 @@
         display: none;
     }
 
-    .footer-wrapper {
-        width: 100vw;
-        background-color: rgb(25, 25, 25);
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    footer {
-        width: 1160px;
-        padding: 0 20px;
-        margin: 0 12px;
-        height: 100%;
-    }
 
     #business-button {
         padding: 0;
@@ -410,5 +395,23 @@
 
     #dasher-button {
         width: 152.812px;
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-wrapper {
+        width: 1184px;
+    }
+
+    .copyright {
+        margin-top: -2px;
+    }
+
+    .copyright-text-items {
+        margin-left: 18px;
     }
 }
