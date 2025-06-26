@@ -100,19 +100,15 @@ header {
     height: 100%;
     justify-content: space-around;
     align-items: center;
-    width: 260px;
 }
 
-
-
-.ad-content,
 .ad-logo {
     margin-top: 10px;
 }
 
 .ad-logo {
     margin-top: 20px;
-    margin-right: -15px;
+    margin-left: 8.5px;
 }
 
 .left-section .ratings {
@@ -123,8 +119,7 @@ header {
 }
 
 .ratings {
-    margin-left: -30px;
-    margin-top: 3px;
+    margin-left: -25px;
 }
 
 .ratings span {
@@ -135,33 +130,23 @@ header {
 
 .ad-content {
     margin-top: 15px;
-    margin-left: 17px;
+    margin-left: 10px;
 }
 
 .ad-content h4 {
-    font-size: 15px;
-    margin-left: -10px;
+    font-size: 16px;
     margin-top: 0px;
-    font-family: "TT-Norms",
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Helvetica,
-        Arial,
-        sans-serif,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol";
+    font-family: "TTNorms-Regular";
+    line-height: 22px;
+    letter-spacing: 0.35px;
 }
 
 .ad-content p {
     font-size: 14px;
-    margin-left: -10px;
-    margin-top: 3px;
     color: var(--secondary-text-color);
     font-weight: bold;
     font-family: "TTNorms-Regular";
+    line-height: 20px;
 }
 
 .ad-content span {
@@ -172,19 +157,14 @@ header {
     margin-left: 6px;
 }
 
-.stars-container svg {
-    width: 16.5px;
-    height: 16.5px;
-    margin-right: -1px;
-}
 
 .stars-container svg path {
     fill: rgb(235, 177, 30)
 }
 
 .stars-container svg {
-    width: 11.5px;
-    height: 11.5px;
+    width: 12px;
+    height: 12px;
 }
 
 .right-section {
@@ -368,7 +348,8 @@ nav {
 }
 
 .delivery-inputs-wrapper .input-wrapper input::placeholder {
-    font-size: 15.2px;
+    font-size: 14px;
+    line-height: 22px;
     margin-left: 10px;
     font-weight: bold;
     letter-spacing: 0.5px;
