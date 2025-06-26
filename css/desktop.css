@@ -408,11 +408,7 @@
         width: 1184px;
     }
 
-    .copyright {
-        margin-top: -2px;
-    }
-
     .copyright-text-items {
-        margin-left: 18px;
+        margin-left: 16px;
     }
 }

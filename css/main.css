@@ -1348,6 +1348,7 @@ footer {
     font-size: 14px;
     line-height: 20px;
     color: rgb(196, 196, 196);
+    letter-spacing: 0.1px;
 }
 
 .connect {
@@ -1381,6 +1382,7 @@ footer {
     font-size: 12px;
     line-height: 18px;
     color: white;
+    letter-spacing: 0.1px;
 }
 
 .social-links {
@@ -1388,9 +1390,16 @@ footer {
     justify-content: center;
     flex-wrap: nowrap;
     text-align: center;
+    align-self: flex-start;
 }
 
 .twitter,
 .insta {
     margin-left: 12px;
+}
+
+.fb,
+.twitter,
+.insta {
+    opacity: 0.7;
 }
