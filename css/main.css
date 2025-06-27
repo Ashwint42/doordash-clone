@@ -1394,3 +1394,23 @@ footer {
 .insta {
     opacity: 0.7;
 }
+
+
+@media screen and (max-width: 480px) {
+    #franchise .franchise-wrapper {
+        padding: 24px 16px;
+    }
+
+    .franchise-nav .top-cities-wrapper {
+        border-left: 0.3px solid rgb(163, 163, 163);
+        border-right: 0.3px solid rgb(163, 163, 163);
+    }
+
+    .copyright {
+        display: flex;
+    }
+
+    .social-links {
+        align-self: center;
+    }
+}
