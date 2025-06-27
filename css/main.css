@@ -487,6 +487,7 @@ nav {
 
 .app-ad-container {
     max-width: 360px;
+    height: 161.6px;
     background-color: #f7f7f7ff;
     border: 1px solid rgb(241, 241, 241);
     margin-top: 20px;
@@ -635,6 +636,7 @@ nav {
     line-height: 24px;
     min-width: 208px;
     font-weight: 500;
+    letter-spacing: 0.15px;
 }
 
 .role-text-container button {
@@ -695,7 +697,7 @@ nav {
     font-size: 18px;
     line-height: 22px;
     margin-top: 10px;
-    letter-spacing: -0.01px;
+    letter-spacing: 0.15px;
     max-width: 100%;
 }
 
@@ -722,13 +724,13 @@ nav {
 .secondary-overlay-container {
     background-color: var(--overlay-color);
     height: 678px;
-    margin-top: -96px;
+    margin-top: -95px;
     width: 100%;
-    padding-top: 300px;
+    padding-top: 320px;
 }
 
 .secondary-overlay-item {
-    margin-top: 22px;
+    /* margin-top: 22px; */
     padding: 0 20px;
 }
 
@@ -872,6 +874,7 @@ nav {
     font-size: 24px;
     line-height: 28px;
     margin-top: 20px;
+    letter-spacing: 0.3px;
 }
 
 .convenience-text span {
@@ -880,7 +883,8 @@ nav {
     line-height: 20px;
     margin-top: 10px;
     font-weight: 100;
-    font-family: 'TTNorms-Medium';
+    font-family: 'TTNorms-Regular';
+    letter-spacing: 0.1px;
 }
 
 .convenience-button-container {
@@ -955,6 +959,7 @@ nav {
     max-width: 90%;
     margin-top: 20px;
     text-align: center;
+    line-height: 28px;
 }
 
 .carousel-text span {
@@ -963,7 +968,8 @@ nav {
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
-    font-family: 'TTNorms-Medium';
+    font-family: 'TTNorms-Regular';
+    letter-spacing: 0.1px;
 }
 
 .carousel-text .carousel-item-button-container {
