@@ -215,6 +215,7 @@
         margin-top: 10px;
         font-size: 16px;
         line-height: 22px;
+        letter-spacing: 0.16px;
     }
 
 
@@ -224,6 +225,7 @@
         max-width: 100%;
         font-size: 16px;
         line-height: 22px;
+        margin-top: 30px;
     }
 
     .primary-overlay-image {
@@ -283,6 +285,9 @@
         font-size: 16px;
         line-height: 22px;
         margin-top: 20px;
+        font-family: "TTNorms-Regular";
+        letter-spacing: 0.02px;
+        /* letter-spacing: 0.; */
     }
 
     .secondary-overlay-item-text button {
@@ -447,7 +452,7 @@
         font-size: 16px;
         line-height: 22px;
         font-weight: 500;
-        font-family: 'TTNorms-Medium';
+        font-family: 'TTNorms-Regular';
     }
 
     .carousel-text .carousel-item-button-container {
